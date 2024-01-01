@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+        }
+  
+        header {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 1em;
+        }
+  
+        section {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+  
+        button {
+          padding: 10px;
+          background-color: #333;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+        }
+  
+        button:hover {
+          background-color: #555;
+        }
+      </style>
+</head>
+<body>
+   <header>
+    <h1>ALBERT EINSTEIN</h1>
+   </header> 
+   <section>
+    <h2>Introduction</h2>
+    <p>
+        Albert Einstein was a theoretical physicist who developed the theory of
+        relativity, one of the two pillars of modern physics. He was born on
+        March 14, 1879, in Ulm, in the Kingdom of Württemberg in the German
+        Empire.
+      </p>
+      <h2>Life and Achievements</h2>
+      <p>
+        Einstein's contributions to science revolutionized our understanding of
+        the universe. His famous equation, E=mc^2, demonstrates the relationship
+        between energy and mass. He received the Nobel Prize in Physics in 1921
+        for his explanation of the photoelectric effect.
+      </p>
+      <h2>Legacy</h2>
+      <p>
+        Albert Einstein's work laid the foundation for many scientific
+        advancements and continues to inspire researchers and students
+        worldwide. His insights into the nature of space, time, and energy have
+        had a profound impact on the field of physics.
+      </p>
+      <button onclick="displayMessage()">Click me!</button>
+      <p id="output"></p>
+   </section>
+   <script>
+    function displayMessage() {
+      document.getElementById("output").innerHTML =
+        "Thank you for honoring Albert Einstein!";
+    }
+  </script>
+</body>
+</html>
